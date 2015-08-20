@@ -1,0 +1,49 @@
+{
+  /*
+   * ENVIRONMENTS
+   * =================
+   */
+
+  // Define globals exposed by Node.js.
+  "node": true,
+
+  // Define globals exposed by Mocha
+  "mocha": true,
+
+  // Allow ES6.
+  "esnext": true,
+
+  /*
+   * ENFORCING OPTIONS
+   * =================
+   */
+
+  // Requires to always put curly braces around blocks
+  "curly": true,
+
+  // Prohibit use of == and != in favor of === and !==.
+  "eqeqeq": true,
+
+  // Prohibit use of a variable before it is defined.
+  "latedef": true,
+
+  // Enforce placing 'use strict' at the top function scope
+  "strict": true,
+
+  // Prohibit use of explicitly undeclared variables.
+  "undef": true,
+
+  // Warn when variables are defined but never used.
+  "unused": true,
+
+  // Prohibit overwriting prototypes of native objects
+  "freeze": true,
+
+  /*
+   * RELAXING OPTIONS
+   * =================
+   */
+
+  // Suppress warnings about == null comparisons.
+  "eqnull": true
+}

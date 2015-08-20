@@ -1,0 +1,38 @@
+{
+  "name": "dotify",
+  "version": "1.0.0",
+  "description": "Convert javascript object to dot notation object",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GeenenTijd/dotify.git"
+  },
+  "author": {
+    "name": "Glenn Geenen",
+    "email": "glenn@geenentijd.be",
+    "web": "http://geenentijd.be"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/GeenenTijd/dotify/issues"
+  },
+  "homepage": "https://github.com/GeenenTijd/dotify",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover --dir ./coverage ./node_modules/.bin/_mocha -- -R spec -t 10000 --recursive --slow 2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "istanbul": "*"
+  },
+  "keywords": [
+    "mongoose",
+    "dot",
+    "notation",
+    "object",
+    "dotify"
+  ]
+}
