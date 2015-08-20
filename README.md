@@ -18,3 +18,17 @@ to (Dot notation object)
       'name.first': 'Glenn',
       'name.last': 'Geenen'
     }
+
+### usage
+
+    var dotify = require('dotify');
+    
+    var obj = {
+      status: 'success',
+      name: {
+        first: 'Glenn',
+        last: 'Geenen'
+      }
+    };
+    
+    var result = dotify(obj);
