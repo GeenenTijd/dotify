@@ -1,6 +1,8 @@
 dotify
 ======
 
+[![Build Status](https://travis-ci.org/GeenenTijd/dotify.svg?branch=master)](https://travis-ci.org/GeenenTijd/dotify)
+
 Convert Object
 
     {
