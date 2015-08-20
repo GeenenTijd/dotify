@@ -1,5 +1,5 @@
 {
-  "name": "dotify",
+  "name": "node-dotify",
   "version": "1.0.0",
   "description": "Convert javascript object to dot notation object",
   "repository": {

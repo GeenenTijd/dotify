@@ -1,4 +1,4 @@
-dotify
+node-dotify
 ======
 
 Convert Object
@@ -21,8 +21,8 @@ to (Dot notation object)
 
 ### usage
 
-    var dotify = require('dotify');
-    
+    var dotify = require('node-dotify');
+
     var obj = {
       status: 'success',
       name: {
@@ -30,5 +30,5 @@ to (Dot notation object)
         last: 'Geenen'
       }
     };
-    
+
     var result = dotify(obj);
