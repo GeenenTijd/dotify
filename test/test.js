@@ -1,5 +1,6 @@
 'use strict';
 
+var ObjectID = require('bson-objectid');
 var assert = require('assert');
 var dotify = require('../dotify');
 
@@ -89,4 +90,15 @@ describe('Test Dotify', function testMapUpdate() {
 
   });
 
+  it('test ObjectID', function testObjectID() {
+
+    var obj = {
+      _id: new ObjectID()
+    };
+
+    var result = dotify(obj);
+
+    assert.equal(result._id, new ObjectID(obj._id));
+
+  });
 });
