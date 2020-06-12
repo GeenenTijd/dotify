@@ -35,5 +35,8 @@
     "notation",
     "object",
     "dotify"
-  ]
+  ],
+  "dependencies": {
+    "bson-objectid": "^1.3.1"
+  }
 }
