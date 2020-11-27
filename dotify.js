@@ -8,7 +8,7 @@ function dotify(obj) {
     for (var key in obj) {
       var value = obj[key];
       var newKey = (current ? current + '.' + key : key);  // joined key with dot
-      if (value && typeof value === 'object' && !ObjectID.isValid(value)) {
+      if (value && typeof value === 'object' && !(value instanceof Date) && !ObjectID.isValid(value)) {
         recurse(value, newKey);  // it's a nested object, so do it again
       } else {
         res[newKey] = value;  // it's not an object, so set the property
