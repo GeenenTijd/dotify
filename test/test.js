@@ -101,4 +101,18 @@ describe('Test Dotify', function testMapUpdate() {
     assert.equal(result._id, new ObjectID(obj._id));
 
   });
+
+  it('test Date', function testDate() {
+
+    var now = new Date();
+
+    var obj = {
+      date: now
+    };
+
+    var result = dotify(obj);
+
+    assert.equal(result.date, now);
+
+  });
 });
